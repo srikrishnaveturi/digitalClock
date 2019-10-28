@@ -1,6 +1,7 @@
+//THIS CODE IS WRITTEN FOR ARDUINO MEGO,FOR UNO CHANGE THE BUZZER PIN FROM 36 TO A PORT FROM 2-13
 #include <RTClib.h>
 RTC_DS1307 rtc;
-int HOUR = 14, MINUTE = 18;
+int HOUR = 14, MINUTE = 18;     // initialize with you desired time
 void setup () {
   while (!Serial); // for Leonardo/Micro/Zero
   Serial.begin(57600);
